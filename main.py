@@ -6,7 +6,7 @@ import os
 
 app = Flask(__name__)
 
-openai.api_key = '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'
+openai.api_key = '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'
 def extract_text_from_url(url):
     try:
         # Send a GET request to the URL
